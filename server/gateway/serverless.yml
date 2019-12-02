@@ -34,6 +34,13 @@ functions:
           path: '/createjobdetails'
           method: POST
           cors: true
+      - http:
+          path: '/updatejobdetail'
+          method: POST
+          cors: true
+          request:
+            template:
+              application/json: '{ "id": "$input.params(''id'')" }'
 
 resources:
   Resources:
