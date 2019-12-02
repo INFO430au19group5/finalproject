@@ -15,5 +15,34 @@ functions:
   app:
     handler: index.handler
     events:
-      - http: ANY /
-      - http: 'ANY {proxy+}'
+      - http:
+          path: '/getjobdetails'
+          method: GET
+          cors: true
+      - http:
+          path: '/getjobdetailsbyname'
+          method: GET
+          cors: true
+          request:
+            template:
+              application/json: '{ "name": "$input.params(''name'')" }'
+      - http:
+          path: '/deletejobdetails'
+          method: DELETE
+          cors: true
+      - http:
+          path: '/createjobdetails'
+          method: POST
+          cors: true
+
+resources:
+  Resources:
+    GatewayResponseDefault4XX:
+      Type: 'AWS::ApiGateway::GatewayResponse'
+      Properties:
+        ResponseParameters:
+          gatewayresponse.header.Access-Control-Allow-Origin: "'*'"
+          gatewayresponse.header.Access-Control-Allow-Headers: "'*'"
+        ResponseType: DEFAULT_4XX
+        RestApiId:
+          Ref: 'ApiGatewayRestApi'
