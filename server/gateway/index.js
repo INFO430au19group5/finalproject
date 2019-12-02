@@ -1,3 +1,3 @@
-const app = require('./endpoints').app;
+import { app } from './endpoints';
 
 module.exports.handler = app;
