@@ -13,12 +13,20 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "graphql-compose": "^7.6.1",
+    "graphql-compose-mongoose": "^7.3.0",
     "mongoose": "^5.7.13",
     "serverless-http": "^2.3.0",
     "serverless-offline": "^5.12.1"
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.2.2"
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "mocha": "^6.2.2",
+    "prettier": "^1.19.1"
   }
 }
