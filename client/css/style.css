@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: auto;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.userForm {
+  max-width: 750px;
+  margin: auto;
+  background-color: #ededed; 
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  outline-color: black;
+  outline-style: double;
+}
+
