@@ -1,8 +1,9 @@
 const express = require('express');
+const uuidv4 = require('uuid/v4');
 
 const app = express();
-const { Job } = require('../models/Schema');
-const uuidv4 = require('uuid/v4');
+
+const { Job, User } = require('../models/Schema');
 
 app.get('/getjobdetails', (req, res, next) => {
     Job.find({}, function (err, docs) {
@@ -61,5 +62,7 @@ app.put('/updatejobdetail', (req, res, next) => {
         res.send(model);
     })
 });
+
+
 
 module.exports = app;
