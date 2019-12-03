@@ -23,3 +23,9 @@ code {
   outline-style: double;
 }
 
+#myHeader { 
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+

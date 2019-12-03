@@ -6,10 +6,10 @@ const jobSchema = new mongoose.Schema({
         required: true
     },
     company: String,
-    salary: Number,
+    salary: String,
     stipend: String,
     position: String,
-    stages: Number,
+    stages: String,
     process: [String]
 });
 
