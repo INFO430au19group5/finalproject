@@ -1,8 +1,10 @@
 const express = require('express');
+const uuidv4 = require('uuid/v4');
 
 const app = express();
+
 const { Job } = require('../models/Schema');
-const uuidv4 = require('uuid/v4');
+
 
 app.get('/getjobdetails', (req, res, next) => {
     Job.find({}, function (err, docs) {
@@ -35,18 +37,20 @@ app.delete('/deletejobdetails/:id', (req, res, next) => {
             res.status(400).json(err);
             return;
         }
-        console.log(doc)
+        console.log(doc);
         res.send('Success to delete data!');
     })
 });
 
 app.post('/createjobdetails', (req, res, next) => {
     req.body._id = uuidv4();
+    console.log(req.body);
     Job.create(req.body, (err, job) => {
         if (err) {
             res.status(500).json(err);
             return;
         }
+        console.log(job);
         res.send(job);
     })
 });
