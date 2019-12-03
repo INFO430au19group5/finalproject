@@ -1,0 +1,222 @@
+Goldman Sachs|Engineering Summer Analyst|52|$3000 signing bonus
+Pure Storage|Software Engineering Intern|52|intern housing/ $1200 relocation stipend
+Facebook|Software Engineering Intern|50|Housing provided
+Lyft|SWE Intern|60|$1500/month
+Visa|SWE Intern|25|$4000 one time
+Chevron|SWE Intern|22|$1500-2000/month
+Datadog|Software Engineer Intern|52|N/A
+SurveyMonkey|Software Engineer Intern|41|$5,000 (lump)
+Uber|Software Engineer Intern|46|$1,500/mo
+Atlassian|Developer Intern|36|None (I'm in Sydney)
+Vanguard|Applications Developer Intern (Summer 2020)|35|Corporate housing or $1850 stipend
+Apple|Software engineering Intern|40|Corporate housing, $1000 relocation one-time sum
+Amazon|SDE Intern|53|~$1700 / month (post tax)
+Uber|Software Engineer Intern|44|$1500 per month (taxable)
+Google|Software Engineering Intern (Site Reliability)|38|$9000 one time
+The Walt Disney Studios|Software Engineering Intern, Studios|35|$2,000 for relocation/housing
+Twitch|Data Intern|53|$1925 per month
+Microsoft|Software Engineering Intern|46|Corporate housing & they paid for relocation.
+Datadog|Product Manager Intern|50|Relocation reimbursed
+Google|SWE Intern|47|$9000
+Linkedin|Associate Product Management Intern|45|$6000 or company housing
+Yelp|Software Development Intern|45|$1500 / month
+Uber|Software Engineering Intern|46|$1500/month, $200/month credits, flights covered
+GoDaddy|Software Development Engineer Intern|50|Free Corporate Housing
+American Express|Software Engineering Intern|75|$5k for housing
+NCR|Software Engineering Intern|26|None. I'm in Atlanta
+Facebook|Solutions Engineering Intern|38|Free corporate housing
+AWS|Solutions Architect Intern|42|$1375/month
+Slack|Software Engineer Intern|50|$2000/ month
+Google|SWE Intern|44|$9000 total
+Credit Karma|SWE Intern|45|$1000/month
+Amazon|SDE Intern|48|$1375 post taxes/month + travel
+Square|Software Engineer Intern|45|2k/month
+Shift|Software Engineer Intern|50|2k/month
+Affirm|Software Engineer Intern|50|4k/summer
+American Express|Software Engineering Intern|47|$5000 One Time
+Squarespace|Software Engineer Intern|45|Either cooperate housing in Brooklyn or 1.5k/month.
+PayPal|SWE Intern|49|Housing + return flight paid for
+Microsoft|SWE Intern|46|Corporate Housing or $7000 for the entire duration
+Facebook|SWE Intern|50|Corporate Housing or variable stipend
+Slack|SWE Intern|50|2k/mo + flights/commute
+Square|SWE Intern|34|1000 relocation + 1000/mo
+UPS|UPS IT intern|21|none
+NCR|SWE Intern|26|1000/mo
+Riot Games|SWE Intern|56|Company housing, free meals, etc.
+JPMorgan Chase|SWE Intern|47|$1500 one-time
+Google|SWE Intern|47|$9000 lump sum
+Facebook|SWE Intern|50|Free housing
+Microsoft|SWE Intern|46|Free housing or $7000
+Uber|SWE Intern|44|$1800/month + 200/month in Uber credits
+JP Morgan Chase|SWE Intern|47|$1500 lump sum
+Intel|Firmware Engineering Intern|27|Relocation Assistance
+Capital One|SWE Intern|48|$1500/month
+Convoy|SWE Intern|50|3000 lump sum
+Apple|SWE Intern|48|Corporate housing or 1k/month
+Yext|SWE Intern|48|$10,000 pre-tax signing bonus/housing stipend
+Tableau|SWE Intern|40|$4,000 for the whole summer
+JP Morgan Chase|SWE Intern|47|1500 one time bonus
+Riot Games|Software Engineering Intern|56|Paid intern housing
+Chan Zuckerberg Initiative|Software Engineering Intern|50|Paid intern housing + transportation pass
+Microsoft|Software Engineer Intern|46|Choice of corporate housing/$7000
+Microsoft|Software Engineer Intern|46|Choice of corporate housing/$7000
+Barclays|Software Engineering Intern|85|$2500
+Liberty Mutual Insurance|SWE Intern|25|$2000 housing stipend
+American Express|Software Engineering Intern|47|$5000
+American Express|SWE Intern|47|$5000 lump sum
+FB|SWE Intern|50|Corporate housing/monthly stipend (unknown amount)
+American Express|Software Engineer Intern|75|5k for housing
+Allstate|Application Developer Intern|28|~400 / week housing, Flight/Gas reimbursed
+Lockheed Martin|College Tech Specialist / Software Engineering Intern|27|None (I'm local, it's offered to others)
+Lockheed Martin|Software Engineering Intern|20|None
+HomeAway|SWE Intern|40|None, but there is a $2500 signing bonus
+NCR|Software Engineer Intern|26|I'm in Atlanta so none.
+Bank of America|Technology Analyst|35|2.5k for housing
+Citadel|Option between Quant Researcher and SWE Intern|18|Corporate housing + flights provided
+Airbnb|Software Engineering Intern|44|$4,000/month, meals, flights
+Facebook|Software Engineering Intern|50|Corporate housing, meals, flights
+Google|Software Engineering Intern|44|$9,000 one time, meals, flights
+Lockheed Martin|Information Technology Intern|19|$850 monthly housing stipend
+Ubisoft|Online Programmer|21|None
+MongoDB|Software Engineering Intern|34|N/A
+Salesforce|Software Engineering Intern|48|Corporate housing included + flights etc.
+Honeywell|Software Developer Intern|25|Housing paid for and free food
+Nextdoor|Software Engineer Intern- Fall 18|47|$1500 month for housing + Airfare
+Atlassian|Software Developer Intern|75|$2000AUD lump sum
+Ubisoft|Software Developer Intern|21|0
+Google|Software Engineering Intern|43|lump sum of 9000 pretax (45% initially withheld)
+VMware|Product Development Intern|36|Housing included
+Yelp|Software Engineering Intern|47|$1500/month
+Goldman Sachs|Summer Analyst|100|$1500
+Barclays|Software Developer Summer Analyst|80|$2500 signing bonus
+Foursquare|Software Engineering Intern|40|No housing/travel assistance.
+Coinbase|Software Engineer Intern|45|Corp housing
+USAA|Software Developer Intern|25|$2200
+Google|SRE intern|90|9k
+ExxonMobil|Software Engineering Intern|30|$1500 at the beginning of the internship
+SAP|Product Support Engineering - SAP HANA|24|N/A
+Willowtree Inc.|Software Test Engineer|21|$2000 Stipend + Free Downtown Parking
+Amazon|SDE Intern|48|$2.5/mo
+Microsoft|SWE Intern|49|$7,000 (post-tax) + $12,500 signup bonus (pre-tax)
+OpenTable|SWE Intern|43|2500 for summer
+Amazon|SDE Intern|48|$2.5k/month
+Western Digital|RAMP Software Engineer Intern|27|Free housing for the duration of the program
+Google|SWE Intern|12|$10000
+American Express|Software Engineer III Intern|40|$500\-1000 varies
+Prudential Financial|Data Analytics Platform Engineering|25|$3500 one-time cash
+NASA|Software Eng. Intern|61|Hah, I wish.
+Yext|Software Engineering Intern|48|$10,000 signing bonus
+Wayfair|Software Engineer Intern|34|Housing in local university
+Qualcomm|Software Engineer Intern|38|Relocation package + corporate housing
+Visa|Data Engineering Intern|31|$4k, plus pays for public transportation/food
+Workday|Software Application Development Intern|42|Housing provided
+Facebook|Software Engineering Intern|50|Corporate housing or $1000 stipend a month.
+Microstrategy|Software Engineering Intern|25|A little bit of bonus or stipend I think
+Capital One|Software Engineering Intern|45|corp housing or $5000 I think it was
+Google|Software Engineering Intern|47|9000 one time
+Facebook|Software Engineering Intern|50|Corporate Housing or 1K/mo
+Amazon|SDE Intern|48|2500/mo or Corporate Housing
+Atlassian|Software Developer Intern|41|None
+Barclays|Automated Volatility Trading Summer Analyst|100|$2500
+Disney|Mobile Development Intern|25|$1200 flat
+ADP|Global Product & Technology Internship|25|n/a, I'm local so none needed.
+Linkedin|IOS SWE Intern|45|corporate housing
+Amazon|SDE Intern|48|$3500/month (Took Corp housing option)
+Microsoft|SWE Intern|45|$7000 or Corp housing.
+AT&T|SWE Intern (TDP)|23|$2500 total
+Honda R&D|SWE Intern|19|$0
+NVIDIA|Deep Learning Intern|50|$550/week
+Airbnb|Software Engineering Intern|40|$4000/month
+Facebook|Software Engineering Intern|50|Studio apt or $1000/month
+Rubrik|Software Engineering Intern|50|$1000/month
+Uber|Software Engineering Intern|43|$1000/month
+Appian|Software Engineering Intern|35|$1000/month
+Square|Software Engineering Intern|44|$2000/month
+Microsoft|SDE Intern|42|Free Corporate housing or Housing stipend ($7000 lump sum)
+Amazon|SDE Intern|44|-300/-500 for corporate, $2500/month for stipend.
+Uber|Software Engineering Intern|43|1000/mo
+Yelp|Software Engineering Intern|46|1500/mo
+Credit Karma|Software Engineering Intern|45|none
+Facebook|SWE Intern|50|Corporate housing or $1000/month, airfare, shipping
+Box|SWE Intern|40|$5500 one time, airfare, transportation fee ~180/month
+TripAdvisor|SWE Intern|35|$4500 one time
+Yelp|SWE Intern|46|$1500 per month, airfare
+Uber|SWE Intern|43|1000/month stipend + $300 Uber/UberEats credit per month
+Cisco|Software Engineering Intern|28|$6,000 relocation bonus or corporate housing
+Amazon|Software Development Engineer Intern|48|$2500/month stipend
+Goldman Sachs|Summer Technology Analyst|100|$1500 1 time
+Nike|Technology Intern|23|$4500 1 time
+Redfin|Software Engineering Intern|49|$1.5k/mo
+Zillow|Software Engineering Intern|46|$1k/mo
+Capital One|Software Engineering Intern|48|$1k/mo
+Workday|Software Engineering Intern|43|Corp housing
+Airbnb|SDE Intern|45|$4k/month
+Quora|SDE Intern|48|Housing
+Facebook|SDE Intern|48|Housing
+Uber|Software Engineering Intern|44|$1000/month, 17% off Uber, $200 in Uber credits
+Redfin|Software Engineering Intern|12|$1000 relocation + $1500/month housing
+Yext|Software Engineering Intern|48|$10,000 one-time bonus
+Airbnb|SWE Intern|40|$4000 / month
+Uber|SWE Intern|44|$1000/ month
+Quora|SWE Intern|55|Housing and flights provided
+Bloomberg|SWE Intern|45|Housing (or $5100) and flights provided.
+Facebook|Software Engineering Intern|50|Corporate housing or 1000$/month
+Google|Software Engineering Intern|44|$9,000
+Amazon|SDE Intern|50|Corporate housing (-$500/mo) or $2,500/mo + flights
+Amazon|SDE Intern|50|$2500/mo
+Microsoft|Software Engineer Intern|45|$4000 one-time lump sum
+Lyft|Software Engineering Intern|52|$3000/month
+Airbnb|Software Engineering Intern|40|$4000/month
+Facebook|Software Engineering Intern|50|Studio apt or $1000/month
+Uber|Software Engineering Intern|43|$1000/month
+Microsoft|Explorer Intern|31|Corporate housing or $2000/month
+BNY Mellon|Technology Summer Analyst|30|none
+Honeywell|SDE Internship|27|Transportation paid for, corporate housing.
+Microsoft|SWE Intern|48|$7000 housing, $3000 relocation (driving from PA to WA)
+Microsoft|Intern|45|$7000 lump sum
+Twitter|Software Engineering Intern|41|$2000/month
+Google|intern|47|$2000/month (I think)
+Facebook|Software Engineering Intern|50|Corporate housing or $1000/month
+Google|Software Engineering Intern|90|$9000 lump sum
+Goldman Sachs|Summer Tech Analyst|100|$1500 lump sum, paid for flights to/from
+Kohl's|Software Engineering Intern|30|provided corporate housing
+Facebook|Software Engineering Intern|50|Corporate housing or 1000 USD/month
+Bloomberg|SWE Intern|42|Corporate housing provided, 2k relocation
+Amazon|SWE Intern|48|Corporate housing (-500 for single)/ relocation benefits
+Shopify|Data Analyst Intern|33|Corporate housing (-like 300?)
+Microsoft|Garage Intern|45|$7000 stipend plus $300 for additional costs
+Groupon|SWE Intern|38|7.5k signing bonus, 3k relocation fee
+JPM|Whatever the title is|40|1.5k signing bonus
+Facebook|Software Engineering Intern|50|company housing (Oakwood)
+Twitter|Software Engineering Intern|40|$500/week USD
+Amazon|Software Engineering Intern|48|$3500/month
+Intuit|Software Engineering Intern|38|Corporate Housing
+Salesforce|Software Engineering Intern|43|provided full housing
+Capital One|Technology Development Program Intern|22|provided housing or $3000 after taxes
+ConocoPhillips|IT Intern|33|don't remember, i think $1500?
+Amazon|SDE Intern|50|$2500/mo
+Home Depot|Software Engineering Internship|20|Free housing at GA Tech
+JP Morgan|Technology Analyst|32|$1500
+JPMorgan Chase|Technology Analyst Intern|37|$1500 one time singing bonus
+Verizon|IT Intern (Software Development)|24|I believe its flight stipend + 2500/3500/housing.
+Kohl's|Software Developer Intern|20|Flight + Housing paid
+AT&T|Software Development Intern|24|$2.5k
+Microsoft|Software Developer Intern|26|$5k housing stipend, $1100 for relocation
+Shopify|Software Developer Intern|33|Housing program (-$800/month)
+PagerDuty|Software Developer Intern|39|N/A
+E&Y|Web developer|55|free breakfast and lunch
+Capital One|Software Engineer Intern|45|$3000 lump
+J.P. Morgan|Summer Technology Analyst (TAP)|31|$1500
+CSIRO|Health and Biosecurity Intern|61|None
+Salesforce|Software Engineer Intern|35|$3600 post-tax
+Bloomberg|Software Engineering Intern|43|Paid housing + $2000 relocation bonus
+Microsoft|Foundry Intern|47|$4300 + airfare + commuter benefits (~$250/Mo)
+Amazon|SDE Intern|48|$2500/mo + flights and bus pass
+Facebook|Software Engineer Intern|50|apartment paid for
+Goldman Sachs|Technology Summer Analyst|44|$1500 one time
+Cisco|Security Solutions Engineer Intern|25|$6000
+IBM|Support Engineer Intern|22|No
+IBM|Software Development Intern|24|$3200
+Amazon|SDE Intern|48|either 2500/3500/month
+Fidelity|Technology Intern|23|None
+EA|Software Engineering Intern|25|$2000
