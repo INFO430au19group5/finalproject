@@ -9,8 +9,8 @@ const jobSchema = new mongoose.Schema({
     salary: Number,
     stipend: String,
     position: String,
-    userStage: Number,
-    InterviewProcess: [String]
+    stages: Number,
+    process: [String]
 });
 
 const Job = mongoose.model('Job', jobSchema);
