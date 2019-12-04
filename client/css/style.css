@@ -15,7 +15,7 @@ code {
 .userForm {
   max-width: 750px;
   margin: auto;
-  background-color: #ededed; 
+  background-color: #ededed;
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -23,9 +23,24 @@ code {
   outline-style: double;
 }
 
-#myHeader { 
+#myHeader {
   color: black;
   padding: 40px;
   text-align: center;
 }
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
