@@ -1,71 +1,76 @@
-const formElem = document.querySelector('form');
-formElem.addEventListener('submit', async (e) => {
-    // on form submission, prevent default
+document.getElementById('userForm').onsubmit = (e) => {
     e.preventDefault();
-    // grab all form values
-    var company1 = document.getElementById("company").value;
-    var position1 = document.getElementById("positionID").value;
-    var salary1 = document.getElementById("salaryID").value;
-    var stipend1 = document.getElementById("userHousingStipend").value;
-    var stages1 = document.getElementById("userStages").value;
 
-    var process = []
-    if (document.getElementById("messageCheckbox1").checked) { 
-        process.push(document.getElementById("messageCheckbox1").value);
-    }
-    if (document.getElementById("messageCheckbox2").checked) {
-        process.push(document.getElementById("messageCheckbox2").value);
-    }
-    if (document.getElementById("messageCheckbox3").checked) {
-        process.push(document.getElementById("messageCheckbox3").value);
-    }
-    if (document.getElementById("messageCheckbox4").checked) {
-        process.push(document.getElementById("messageCheckbox4").value);
-    }
-    if (document.getElementById("messageCheckbox5").checked) {
-        process.push(document.getElementById("messageCheckbox5").value);
-    }
-    if (document.getElementById("messageCheckbox6").checked) {
-        process.push(document.getElementById("messageCheckbox6").value);
-    }
-    if (document.getElementById("messageCheckbox7").checked) {
-        process.push(document.getElementById("messageCheckbox7").value);
-    }
-
-    // construct body of request
-    var body = { 
-        "company": company1,
-        "position": position1,
-        "salary": salary1,
-        "stipened": stipend1,
-        "stages": stages1,
-        "process": process,
-    }
-
-    console.log(body)
-
-    // send request via API
-    // var request = new XMLHttpRequest();
-    // request.open("POST", "https://a3gk63que0.execute-api.us-west-2.amazonaws.com/dev/createjobdetails");
-    // request.send(body);
+    const company = document.getElementById('company').value;
+    const position = document.getElementById("positionList").value;
+    const salary = document.getElementById("salary").value;
+    const stripend = document.getElementById('userHousingStipend').value;
+    const stage = document.getElementById('userStages').value;
+    const checkboxes = getCheckBoxValues();
 
     const url = 'https://a3gk63que0.execute-api.us-west-2.amazonaws.com/dev/createjobdetails';
-    try {
-        const response = await fetch(url, {
-            method: 'POST',
-            body: body, // data can be `string` or {object}!
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        });
-        const json = await response.json();
-        console.log('Success:', JSON.stringify(json));
-    } catch (error) {
-        console.error('Error:', error);
+    const data = {
+        company: company,
+        position: position,
+        salary: salary,
+        stripend: stripend,
+        stage: stage,
+        process: checkboxes
     }
 
-    
-    // reset form
-    var form = document.getElementById("userForm");
-    form.reset();
-});
+    fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json; charset=UTF-8'
+        },
+        body: JSON.stringify(data)
+    })
+        .then(res => {
+            console.log('res = ')
+            console.log(res);
+            return res.json()
+        })
+        .then(data => {
+            console.log(data);
+            document.getElementById("userForm").reset();
+            createMessage('success');
+            return data;
+        })
+        .catch(err => {
+            console.log('catch:')
+            document.getElementById("userForm").reset();
+            createMessage('fail', err);
+            console.error(err)
+            return err;
+        });
+}
+
+function getCheckBoxValues() {
+    const checkboxes = document.getElementsByName("process");
+    var items = [];
+    for (var i = 0; i < checkboxes.length; i++) {
+        if (checkboxes[i].checked) {
+            items.push(checkboxes[i].value)
+        }
+    }
+    return items;
+}
+
+function createMessage(message, failMessage) {
+    let messageElement = document.createElement('div');
+    messageElement.setAttribute('role', 'alert');
+    switch (message) {
+        case 'success':
+            messageElement.className = "alert alert-primary";
+            messageElement.innerHTML = "Succeed to add data into table!"
+            break;
+        case 'success':
+            messageElement.className = "alert alert-danger";
+
+            messageElement.innerHTML = `Fails : ${failMessage}`
+            break;
+        default:
+            break;
+    }
+    document.getElementById('message').appendChild(messageElement);
+}
