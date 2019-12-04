@@ -15,11 +15,7 @@
 </head>
 
 <body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-  <div id="error"></div>
-  <main>
-
+  <div id="root" class="container">
     <header id="myHeader">
       <h1>Salary & Interview Insights For Software/Tech Internships</h1>
       <nav>
@@ -29,70 +25,73 @@
         </div>
       </nav>
     </header>
-  </main>
+    <div>
+      <div id="message"></div>
 
-  <form class="userForm" id="userForm">
-    <fieldset>
-      <legend>Submit Your Internship</legend>
-      <p>
-        <label><b>Company</b></label>
-        <input type="text" id="company" name="company" placeholder="Name of Company" />
-      </p>
-      <p>
-        <label><b>Position</b></label>
-        <select id="positionList">
-          <option name="position" value="Software Engineer/Dev">Software Engineer/Dev</option>
-          <option name="position" value="Data Engineer">Data Engineer</option>
-          <option name="position" value="Data Scientist">Data Scientist</option>
-          <option name="position" value="IT">IT</option>
-          <option name="position" value="Business/Data Analyst">Business/Data Analyst</option>
-          <option name="position" value="PM">PM</option>
-          <option name="position" value="Security">Security</option>
-          <option name="position" value="UI/UX">UI/UX</option>
-          <option name="position" value="Other">Other</option>
-        </select>
-      </p>
-      <p>
-        <label><b>Salary $</b></label>
-        <input type="text" id="salary" name="salary" placeholder="Hourly Salary" />
-      </p>
-      <p>
-        <label><b>Housing Stipend</b></label>
-        <select id="userHousingStipend">
-          <option name="stipend" value="$0 or N/A">$0 or N/A</option>
-          <option name="stipend" value="$1-$3000">$1-$3000</option>
-          <option name="stipend" value="$3001-$6000">$3001-$6000</option>
-          <option name="stipend" value="$600+">$6000+</option>
-          <option name="stipend" value="Corporate Housing">Corporate Housing</option>
-        </select>
-      </p>
-      <p>
-        <label><b>Number of Interviews/Stages</b></label>
-        <select id="userStages">
-          <option name="stages" value="1">1</option>
-          <option name="stages" value="2">2</option>
-          <option name="stages" value="3">3</option>
-          <option name="stages" value="4">4</option>
-          <option name="stages" value="5+">5+</option>
-        </select>
-      </p>
+      <form class="userForm" id="userForm">
+        <fieldset>
+          <legend>Submit Your Internship</legend>
+          <p>
+            <label><b>Company</b></label>
+            <input type="text" id="company" name="company" placeholder="Name of Company" />
+          </p>
+          <p>
+            <label><b>Position</b></label>
+            <select id="positionList">
+              <option name="position" value="Software Engineer/Dev">Software Engineer/Dev</option>
+              <option name="position" value="Data Engineer">Data Engineer</option>
+              <option name="position" value="Data Scientist">Data Scientist</option>
+              <option name="position" value="IT">IT</option>
+              <option name="position" value="Business/Data Analyst">Business/Data Analyst</option>
+              <option name="position" value="PM">PM</option>
+              <option name="position" value="Security">Security</option>
+              <option name="position" value="UI/UX">UI/UX</option>
+              <option name="position" value="Other">Other</option>
+            </select>
+          </p>
+          <p>
+            <label><b>Salary $</b></label>
+            <input type="text" id="salary" name="salary" placeholder="Hourly Salary" />
+          </p>
+          <p>
+            <label><b>Housing Stipend</b></label>
+            <select id="userHousingStipend">
+              <option name="stipend" value="$0 or N/A">$0 or N/A</option>
+              <option name="stipend" value="$1-$3000">$1-$3000</option>
+              <option name="stipend" value="$3001-$6000">$3001-$6000</option>
+              <option name="stipend" value="$600+">$6000+</option>
+              <option name="stipend" value="Corporate Housing">Corporate Housing</option>
+            </select>
+          </p>
+          <p>
+            <label><b>Number of Interviews/Stages</b></label>
+            <select id="userStages">
+              <option name="stages" value="1">1</option>
+              <option name="stages" value="2">2</option>
+              <option name="stages" value="3">3</option>
+              <option name="stages" value="4">4</option>
+              <option name="stages" value="5+">5+</option>
+            </select>
+          </p>
 
-      <p>
-        <label><b>Interview Process (Select all that apply):</b></label><br>
-        <input type="checkbox" name="process" value="Online Test/Challenge">Online Test/Challenge<br>
-        <input type="checkbox" name="process" value="Behavioral/Personality/Resume">Behavioral/Personality/Resume<br>
-        <input type="checkbox" name="process" value="Leetcode - Easy">Leetcode - Easy<br>
-        <input type="checkbox" name="process" value="Leetcode - Medium">Leetcode - Medium<br>
-        <input type="checkbox" name="process" value="Leetcode - Hard">Leetcode - Hard<br>
-        <input type="checkbox" name="process" value="System Design">System Design<br>
-        <input type="checkbox" name="process" value="Technical Concepts/Exercise">Technical Concepts/Exercise<br>
-        <br>
-      </p>
-    </fieldset>
-    <input type="submit" value="Submit" />
-  </form>
+          <p>
+            <label><b>Interview Process (Select all that apply):</b></label><br>
+            <input type="checkbox" name="process" value="Online Test/Challenge">Online Test/Challenge<br>
+            <input type="checkbox" name="process"
+              value="Behavioral/Personality/Resume">Behavioral/Personality/Resume<br>
+            <input type="checkbox" name="process" value="Leetcode - Easy">Leetcode - Easy<br>
+            <input type="checkbox" name="process" value="Leetcode - Medium">Leetcode - Medium<br>
+            <input type="checkbox" name="process" value="Leetcode - Hard">Leetcode - Hard<br>
+            <input type="checkbox" name="process" value="System Design">System Design<br>
+            <input type="checkbox" name="process" value="Technical Concepts/Exercise">Technical Concepts/Exercise<br>
+            <br>
+          </p>
+        </fieldset>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
 
-  <script src="./js/index.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

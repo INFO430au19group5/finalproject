@@ -8,8 +8,6 @@ document.getElementById('userForm').onsubmit = (e) => {
     const stage = document.getElementById('userStages').value;
     const checkboxes = getCheckBoxValues();
 
-    console.log(company, position, salary)
-
     const url = 'https://a3gk63que0.execute-api.us-west-2.amazonaws.com/dev/createjobdetails';
     const data = {
         company: company,
@@ -34,9 +32,14 @@ document.getElementById('userForm').onsubmit = (e) => {
         })
         .then(data => {
             console.log(data);
+            document.getElementById("userForm").reset();
+            createMessage('success');
+            return data;
         })
         .catch(err => {
             console.log('catch:')
+            document.getElementById("userForm").reset();
+            createMessage('fail', err);
             console.error(err)
             return err;
         });
@@ -51,5 +54,23 @@ function getCheckBoxValues() {
         }
     }
     return items;
+}
 
-}  
+function createMessage(message, failMessage) {
+    let messageElement = document.createElement('div');
+    messageElement.setAttribute('role', 'alert');
+    switch (message) {
+        case 'success':
+            messageElement.className = "alert alert-primary";
+            messageElement.innerHTML = "Succeed to add data into table!"
+            break;
+        case 'success':
+            messageElement.className = "alert alert-danger";
+
+            messageElement.innerHTML = `Fails : ${failMessage}`
+            break;
+        default:
+            break;
+    }
+    document.getElementById('message').appendChild(messageElement);
+}
