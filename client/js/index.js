@@ -1,8 +1,7 @@
 const formElem = document.querySelector('form');
-formElem.addEventListener('submit', (e) => {
+formElem.addEventListener('submit', async (e) => {
     // on form submission, prevent default
     e.preventDefault();
-
     // grab all form values
     var company1 = document.getElementById("company").value;
     var position1 = document.getElementById("positionID").value;
@@ -54,7 +53,7 @@ formElem.addEventListener('submit', (e) => {
     try {
         const response = await fetch(url, {
             method: 'POST',
-            body: JSON.stringify(body), // data can be `string` or {object}!
+            body: body, // data can be `string` or {object}!
             headers: {
                 'Content-Type': 'application/json'
             }
