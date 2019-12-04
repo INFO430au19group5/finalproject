@@ -8,11 +8,9 @@ function append(parent, el) {
 }
 
 let params = ['company', 'position', 'salary', 'stipend', 'stages', 'process'];
-
 let table = document.getElementById('table');
 
 const url = 'https://a3gk63que0.execute-api.us-west-2.amazonaws.com/dev/getjobdetails';
-
 
 fetch(url)
 .then((resp) => resp.json())
@@ -26,7 +24,6 @@ fetch(url)
         e.innerHTML = data[i][params[j]];
         append(elem,e);
       }
-
     }
 
     let r = data[1][params[0]];
