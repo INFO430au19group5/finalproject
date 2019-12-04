@@ -46,9 +46,24 @@ formElem.addEventListener('submit', (e) => {
     console.log(body)
 
     // send request via API
-    var request = new XMLHttpRequest();
-    request.open("POST", "https://a3gk63que0.execute-api.us-west-2.amazonaws.com/dev/createjobdetails");
-    request.send(body);
+    // var request = new XMLHttpRequest();
+    // request.open("POST", "https://a3gk63que0.execute-api.us-west-2.amazonaws.com/dev/createjobdetails");
+    // request.send(body);
+
+    const url = 'https://a3gk63que0.execute-api.us-west-2.amazonaws.com/dev/createjobdetails';
+    try {
+        const response = await fetch(url, {
+            method: 'POST',
+            body: JSON.stringify(body), // data can be `string` or {object}!
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
+        const json = await response.json();
+        console.log('Success:', JSON.stringify(json));
+    } catch (error) {
+        console.error('Error:', error);
+    }
 
     
     // reset form
