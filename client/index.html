@@ -31,7 +31,7 @@
       </div> -->
 
     <!-- Query databse to populate these columns with appropriate data -->
-    <div class="container">
+    <!-- <div class="container">
       <div class="row row-cols-6">
         <div class="col" id="company">Company</div>
         <div class="col" id="position">Position</div>
@@ -40,20 +40,20 @@
         <div class="col" id="numInterviews"># of Interviews/Stages</div>
         <div class="col" id="intProcess">Interview Process</div>
       </div>
-    </div>
+    </div> -->
 
   </main>
 
-  <form class="userForm">
+  <form class="userForm" id="userForm">
     <fieldset>
       <legend>Submit Your Internship</legend>
       <p>
         <label><b>Company</b></label>
-        <input type="text" name="company" placeholder="Name of Company" />
+        <input type="text" id="company" name="company" placeholder="Name of Company" />
       </p>
       <p>
         <label><b>Position</b></label>
-        <select id="positionList">
+        <select id="positionID">
           <option name="position" value="Software Engineer/Dev">Software Engineer/Dev</option>
           <option name="position" value="Data Engineer">Data Engineer</option>
           <option name="position" value="Data Scientist">Data Scientist</option>
@@ -67,7 +67,7 @@
       </p>
       <p>
         <label><b>Salary $</b></label>
-        <input type="text" name="salary" placeholder="Hourly Salary" />
+        <input type="text" id="salaryID" name="salary" placeholder="Hourly Salary" />
       </p>
       <p>
         <label><b>Housing Stipend</b></label>
@@ -92,13 +92,13 @@
 
       <p>
         <label><b>Interview Process (Select all that apply):</b></label><br>
-        <input type="checkbox" name="process" value="Online Test/Challenge">Online Test/Challenge<br>
-        <input type="checkbox" name="process" value="Behavioral/Personality/Resume">Behavioral/Personality/Resume<br>
-        <input type="checkbox" name="process" value="Leetcode - Easy">Leetcode - Easy<br>
-        <input type="checkbox" name="process" value="Leetcode - Medium">Leetcode - Medium<br>
-        <input type="checkbox" name="process" value="Leetcode - Hard">Leetcode - Hard<br>
-        <input type="checkbox" name="process" value="System Design">System Design<br>
-        <input type="checkbox" name="process" value="Technical Concepts/Exercise">Technical Concepts/Exercise<br>
+        <input id="messageCheckbox1" type="checkbox" name="process" value="Online Test/Challenge">Online Test/Challenge<br>
+        <input id="messageCheckbox2" type="checkbox" name="process" value="Behavioral/Personality/Resume">Behavioral/Personality/Resume<br>
+        <input id="messageCheckbox3" type="checkbox" name="process" value="Leetcode - Easy">Leetcode - Easy<br>
+        <input id="messageCheckbox4" type="checkbox" name="process" value="Leetcode - Medium">Leetcode - Medium<br>
+        <input id="messageCheckbox5" type="checkbox" name="process" value="Leetcode - Hard">Leetcode - Hard<br>
+        <input id="messageCheckbox6" type="checkbox" name="process" value="System Design">System Design<br>
+        <input id="messageCheckbox7" type="checkbox" name="process" value="Technical Concepts/Exercise">Technical Concepts/Exercise<br>
         <br>
       </p>
     </fieldset>
