@@ -11,101 +11,31 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
 
-
 </head>
 
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
+      <header id="myHeader">
+        <h1>Salary & Interview Insights For Software/Tech Internships</h1>
+        <nav>
+          <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="submit.html">Submit</a>
+            </a>
+          </div>
+        </nav>
+      </header>
+      <table id="table">
+        <tr>
+          <th>Company</th>
+          <th>Position</th>
+          <th>Salary (Hourly)</th>
+          <th>Housing Stipend</th>
+          <th># of Interviews/ Stages</th>
+          <th>Interview Process</th>
+        </tr>
+      </table>
+    </main>
 
-  <main>
-
-    <header id="myHeader">
-      <h1>Salary & Interview Insights For Software/Tech Internships</h1>
-    </header>
-
-    <!-- <div class="description">
-        <p>
-          Breif description of website.
-        </p>
-      </div> -->
-
-    <!-- Query databse to populate these columns with appropriate data -->
-    <!-- <div class="container">
-      <div class="row row-cols-6">
-        <div class="col" id="company">Company</div>
-        <div class="col" id="position">Position</div>
-        <div class="col" id="salary">Salary</div>
-        <div class="col" id="housingStipened">Housing Stipened</div>
-        <div class="col" id="numInterviews"># of Interviews/Stages</div>
-        <div class="col" id="intProcess">Interview Process</div>
-      </div>
-    </div> -->
-
-  </main>
-
-  <form class="userForm" id="userForm">
-    <fieldset>
-      <legend>Submit Your Internship</legend>
-      <p>
-        <label><b>Company</b></label>
-        <input type="text" id="company" name="company" placeholder="Name of Company" />
-      </p>
-      <p>
-        <label><b>Position</b></label>
-        <select id="positionID">
-          <option name="position" value="Software Engineer/Dev">Software Engineer/Dev</option>
-          <option name="position" value="Data Engineer">Data Engineer</option>
-          <option name="position" value="Data Scientist">Data Scientist</option>
-          <option name="position" value="IT">IT</option>
-          <option name="position" value="Business/Data Analyst">Business/Data Analyst</option>
-          <option name="position" value="PM">PM</option>
-          <option name="position" value="Security">Security</option>
-          <option name="position" value="UI/UX">UI/UX</option>
-          <option name="position" value="Other">Other</option>
-        </select>
-      </p>
-      <p>
-        <label><b>Salary $</b></label>
-        <input type="text" id="salaryID" name="salary" placeholder="Hourly Salary" />
-      </p>
-      <p>
-        <label><b>Housing Stipend</b></label>
-        <select id="userHousingStipend">
-          <option name="stipend" value="$0 or N/A">$0 or N/A</option>
-          <option name="stipend" value="$1-$3000">$1-$3000</option>
-          <option name="stipend" value="$3001-$6000">$3001-$6000</option>
-          <option name="stipend" value="$600+">$6000+</option>
-          <option name="stipend" value="Corporate Housing">Corporate Housing</option>
-        </select>
-      </p>
-      <p>
-        <label><b>Number of Interviews/Stages</b></label>
-        <select id="userStages">
-          <option name="stages" value="1">1</option>
-          <option name="stages" value="2">2</option>
-          <option name="stages" value="3">3</option>
-          <option name="stages" value="4">4</option>
-          <option name="stages" value="5+">5+</option>
-        </select>
-      </p>
-
-      <p>
-        <label><b>Interview Process (Select all that apply):</b></label><br>
-        <input id="messageCheckbox1" type="checkbox" name="process" value="Online Test/Challenge">Online Test/Challenge<br>
-        <input id="messageCheckbox2" type="checkbox" name="process" value="Behavioral/Personality/Resume">Behavioral/Personality/Resume<br>
-        <input id="messageCheckbox3" type="checkbox" name="process" value="Leetcode - Easy">Leetcode - Easy<br>
-        <input id="messageCheckbox4" type="checkbox" name="process" value="Leetcode - Medium">Leetcode - Medium<br>
-        <input id="messageCheckbox5" type="checkbox" name="process" value="Leetcode - Hard">Leetcode - Hard<br>
-        <input id="messageCheckbox6" type="checkbox" name="process" value="System Design">System Design<br>
-        <input id="messageCheckbox7" type="checkbox" name="process" value="Technical Concepts/Exercise">Technical Concepts/Exercise<br>
-        <br>
-      </p>
-    </fieldset>
-    <input type="submit" value="Submit" />
-  </form>
-
-  <script src="js/index.js"></script>
-</body>
-
+    <script src="js/index.js"></script>
+    <script src="home.js"></script>
+  </body>
 </html>
