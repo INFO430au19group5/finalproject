@@ -1,8 +1,12 @@
 const express = require('express');
+const uuidv4 = require('uuid/v4');
+const crypto = require('crypto');
+
+const hash = crypto.createHash('sha256');
 
 const app = express();
-const { Job } = require('../models/Schema');
-const uuidv4 = require('uuid/v4');
+
+const { Job, User } = require('../models/Schema');
 
 app.get('/getjobdetails', (req, res, next) => {
     Job.find({}, function (err, docs) {
@@ -61,5 +65,34 @@ app.put('/updatejobdetail', (req, res, next) => {
         res.send(model);
     })
 });
+
+app.delete('/deletejobdetail', (req, res, next) => {
+    Job.findByIdAndDelete({ _id: req.params.id }, (err, data) => {
+        if (err) {
+            res.status(500).json(err);
+            return;
+        }
+        console.log('success to update!')
+        res.send(data);
+    })
+});
+
+// app.post('/usr/register', (req, res, next) => {
+//     req.body._id = uuidv4();
+//     let password = hash.update(req.body.password).digest('base64');
+//     req.body.password = password
+//     User.create(req.body, (err, doc) => {
+//         if (err) {
+//             res.status(500).json(err);
+//             return;
+//         }
+//         res.send('Success to add user!')
+//     })
+// })
+
+
+// app.post('/usr/login', (req, res, next) => {
+
+// })
 
 module.exports = app;

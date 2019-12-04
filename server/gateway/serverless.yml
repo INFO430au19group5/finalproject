@@ -27,16 +27,19 @@ functions:
             template:
               application/json: '{ "name": "$input.params(''name'')" }'
       - http:
-          path: '/deletejobdetails'
-          method: DELETE
-          cors: true
-      - http:
           path: '/createjobdetails'
           method: POST
           cors: true
       - http:
           path: '/updatejobdetail'
-          method: POST
+          method: PUT
+          cors: true
+          request:
+            template:
+              application/json: '{ "id": "$input.params(''id'')" }'
+      - http:
+          path: '/deletejobdetail'
+          method: DELETE
           cors: true
           request:
             template:
