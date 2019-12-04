@@ -13,8 +13,8 @@ document.getElementById('userForm').onsubmit = (e) => {
         company: company,
         position: position,
         salary: salary,
-        stripend: stripend,
-        stage: stage,
+        stipend: stripend,
+        stages: stage,
         process: checkboxes
     }
 
